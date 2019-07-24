@@ -1,0 +1,11 @@
+#chord {
+	z-index: 20;
+	position: absolute;
+	left: 0px; top: 0px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 130px;
+	line-height: 100%;
+	padding: 50px;
+	color: black;
+}

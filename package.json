@@ -1,0 +1,26 @@
+{
+  "name": "SongleSlave_LINEThings",
+  "version": "1.0.0",
+  "description": "ブラウザで動作するシンプルな Songle Sync アプリケーション例です  \r 引数で master/slave が切り替わります",
+  "main": "secrets.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SongleJp/songle-sync-app-browser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SongleJp/songle-sync-app-browser/issues"
+  },
+  "homepage": "https://github.com/SongleJp/songle-sync-app-browser#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  }
+}
